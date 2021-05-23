@@ -11,7 +11,7 @@ def caesar(plain_text, key):  # Caesar cipher function.
     return plain_text
 
 
-def de_caesar(cipher_text, key):  # Un-ciphers the cipher with a known key.
+def de_caesar(cipher_text, key):  # De-ciphers the cipher with a known key.
     cipher_text = cipher_text.lower()
     alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u",
                 "v", "w", "x", "y", "z"]
